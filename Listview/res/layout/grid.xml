@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#CCDDEE">
+    
+    <LinearLayout 
+      android:id="@+id/Linear_layout"
+      android:layout_height="200dp"
+      android:layout_width="match_parent"
+      android:orientation="vertical"
+      android:background="#EEDD12"
+        >
+     <ListView android:id="@+id/List1"
+       android:layout_height="match_parent"
+      android:layout_width="match_parent" >
+         
+     </ListView>   
+        
+        
+    </LinearLayout>
+
+</RelativeLayout>

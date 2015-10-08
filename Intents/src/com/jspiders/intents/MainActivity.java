@@ -25,7 +25,8 @@ public class MainActivity extends Activity {
 		messageedittext = (EditText) findViewById(R.id.editTextmessage);
 		sendbutton = (Button) findViewById(R.id.buttonsend);
 		
-		sendbutton.setOnClickListener(new OnClickListener() {
+		sendbutton.setOnClickListener(new OnClickListener() 
+		{
 			
 			@Override
 			public void onClick(View arg0) 
@@ -34,7 +35,7 @@ public class MainActivity extends Activity {
 				//Intent intent = new Intent(packageContext, cls);
 				Intent intent = new Intent(MainActivity.this,Second_Activity.class);
 				intent.putExtra("Key1",message);
-				intent.p
+	
 				startActivity(intent);
 			}
 		});
