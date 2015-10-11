@@ -19,4 +19,15 @@
         android:onClick="createdialoge"
         android:text="Button" />
 
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttondialog"
+        android:layout_alignBottom="@+id/buttondialog"
+        android:layout_marginLeft="54dp"
+        android:layout_toRightOf="@+id/buttondialog"
+        android:onClick="login"
+        android:text="Login" />
+
 </RelativeLayout>
